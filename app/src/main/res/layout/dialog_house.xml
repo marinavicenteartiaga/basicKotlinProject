@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialog"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/starkBase"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgHouse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/test"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="Stark"/>
+
+    <TextView
+        android:id="@+id/labelRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="El norte"/>
+
+    <TextView
+        android:id="@+id/labelWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="bold|italic"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="Winter is coming"/>
+
+</LinearLayout>
